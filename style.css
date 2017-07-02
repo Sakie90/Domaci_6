@@ -1,0 +1,195 @@
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family: 'Comfortaa', cursive;
+	color:darkgrey;
+	background: #f3f3f3;
+	padding-bottom:20px;
+}
+
+a {
+	text-decoration:none;
+	color: #ED2D26;
+}
+
+h2 {
+	color:white;
+}
+
+.container {
+	max-width:960px;
+	width: 96%;
+	margin:auto;
+}
+
+/*--------HEADER-------- */
+header {
+	background: #fff;
+	margin-bottom:20px;
+	overflow:hidden;
+	border-bottom:3px solid #ED2D26;
+}
+
+.logo {
+	float:left;
+	margin-top: 10px
+}
+
+nav {
+	float:right;
+	line-height:70px;
+}
+
+nav li{
+	display:inline-block;
+	padding:5px 20px;
+	margin-left:10px;
+	background: #f3f3f3;
+	line-height:normal;
+}
+
+.content h2{
+	background: #009999;
+	padding:10px;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+
+.content article {
+	text-align:justify;
+	float:left;
+	width:600px;
+}
+
+.content ul{
+	float:right;
+	width:250px;
+	background: #009999;
+	padding:20px;
+	border-radius:5px;
+	
+}
+
+.content ul li{
+	color:white;
+	margin-bottom:5px;
+}
+
+#nav .selected{
+	font-weight:bold;
+}
+
+.ptice {
+	max-width:960px;
+	width: 96%;
+	margin-left:18px;
+}
+
+/*--------GALLERY-------- */
+
+
+.gallery {
+  max-width:640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  padding-left: 13px;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); 
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+h3 {
+  margin: 40px 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.boxed {
+	background:white;
+	max-width:50%;
+  	float:left;
+  	border: 3px solid #009999 ;
+  	border-radius:3px;
+  	padding:15px;
+  	overflow:hidden;
+  	text-align:justify;
+  	word-spacing:-2px;
+	word-break: break-all;
+
+
+} 
+
+h4 {
+	font-size:20px;
+}
+
+.boxed ul {
+	padding-left:8px;
+	list-style:disc;    
+}
+
+.sidepicture {
+	max-width:650px;
+	width:auto;
+	margin-right:180px;
+	display:inline-block;
+	float:left;
+	border: 3px solid #009999 ;
+	border-radius:3px;
+	margin-bottom:20px;
+	margin-left:10px;
+
+}
+
+.fa-map-marker{
+	color:#009999;
+}
+
+ .fa-phone {
+	color:#009999;
+}
+
+ .fa-fax {
+	color:#009999;
+}
+
+ .fa-envelope{
+	color:#009999;
+} 
+
+ .fa-male{
+	color:#009999;
+}
